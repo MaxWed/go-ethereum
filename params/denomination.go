@@ -22,15 +22,13 @@ const (
 	//
 	//    new(big.Int).Mul(value, big.NewInt(params.Douglas))
 	//
-	quantum  = 1
-	Atom     = 1e3
-	Pico     = 1e6
-	Nano     = 1e9
-	MicroD   = 1e12
-	Milli	 = 1e15
-	Quarter  = 25e16
-	Dirham	 = 1e17
-	Dinar    = 1e18
-	Mountain = 1e21
-	Double   = 1e42
+	Wei      = 1
+	Ada      = 1e3
+	Babbage  = 1e6
+	Shannon  = 1e9
+	Szabo    = 1e12
+	Finney   = 1e15
+	Ether    = 1e18
+	Einstein = 1e21
+	Douglas  = 1e42
 )
